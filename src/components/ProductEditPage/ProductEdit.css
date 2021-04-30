@@ -1,0 +1,81 @@
+.product-info_edit,
+.product-data_edit {
+  width: 50%;
+}
+
+.product-data_edit img {
+  width: 80%;
+}
+
+.description_edit {
+  height: 252px !important;
+}
+
+ .title_edit {
+  height: 50px !important;
+}
+
+.product-actions_edit {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-btn {
+  margin: 0px 10px;
+  width: 150px !important;
+}
+
+.product-details_edit {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  padding: 0px 40px 40px 0 ;
+}
+
+.rating-area__edit {
+	overflow: hidden;
+	width: 265px;
+	margin: 0;
+}
+
+.rating-area__edit:not(:checked) > input {
+	display: none;
+}
+
+.rating-area__edit:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating-area__edit:not(:checked) > label:before {
+	content: '★';
+}
+
+.rating-area__edit > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.rating-area__edit:not(:checked) > label:hover,
+.rating-area__edit:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+
+.rating-area__edit > input:checked + label:hover,
+.rating-area__edit > input:checked + label:hover ~ label,
+.rating-area__edit > input:checked ~ label:hover,
+.rating-area__edit > input:checked ~ label:hover ~ label,
+.rating-area__edit > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+
+.rating-area__edit > label:active {
+	position: relative;
+} 

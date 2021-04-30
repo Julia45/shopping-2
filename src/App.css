@@ -1,0 +1,18 @@
+.App {
+  margin: 0 auto;
+  height: 100%;
+  padding: 10px;
+}
+
+.padinationContainer {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.page {
+  margin: 0px 10px;
+}

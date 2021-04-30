@@ -1,0 +1,28 @@
+.products-container {
+  display: flex;
+  margin: 10px 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 748px ) {
+  .products-container {
+    padding: 10px 100px;
+  }
+} 
+
+
+@media (max-width: 637px ) {
+  .products-container {
+    padding: 10px 50px;
+  }
+} 
+
+@media (max-width: 519px ) {
+  .products-container {
+    padding: 10px 0px;
+    margin: 0px 0px;
+  }
+} 
+
+
