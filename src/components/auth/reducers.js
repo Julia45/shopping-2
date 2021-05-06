@@ -1,6 +1,5 @@
 import { AUTH_SUCCESS, AUTH_FAIL } from "./actions"
 
-
 const initialState = {
   user: null,
   error: null
