@@ -1,0 +1,85 @@
+.add-btn {
+  margin: 0px 10px;
+  width: 150px !important;
+}
+
+.product-data_add input[type="text"],
+.product-data_add input[type="number"],
+.product-data_add select
+ {
+ width: 100%;
+}
+
+.description_add {
+  height: 252px !important;
+}
+
+ .title_add {
+  height: 50px !important;
+}
+
+.product-info_add,
+.product-data_add {
+  width: 50%;
+}
+
+.product-details_add {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  padding: 0px 40px 40px 0 ;
+}
+
+.text-danger {
+  margin: 0px 0px 0px 5px;
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 215px;
+	margin: 0;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+
+.rate-area > label:active {
+	position: relative;
+}
